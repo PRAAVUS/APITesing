@@ -147,9 +147,46 @@ namespace WebServiceAutomation.GetEndpoint
             Console.WriteLine(data);
             //Close connection
             httpclient.Dispose();
-            ///////////////
+        }
+       
+        
+        [TestMethod]
+        public void _7TestSendEndpointUsingSendAsync()
+        {
+            HttpRequestMessage httpRequestMessage = new HttpRequestMessage();
+            httpRequestMessage.RequestUri = new Uri(getUrl);
+            httpRequestMessage.Method = HttpMethod.Get;
+            httpRequestMessage.Headers.Add("Accept", "application/json");
+
+            HttpClient httpclient = new HttpClient();
+            Task<HttpResponseMessage> httpResponse= httpclient.SendAsync(httpRequestMessage);
+
+
+            HttpResponseMessage httpResponseMessage = httpResponse.Result;
+
+            HttpContent responsedata = httpResponse.Result.Content;
+
+            Task<string> reponse1 = responsedata.ReadAsStringAsync();
+            string data = reponse1.Result;
+            Console.WriteLine(data);
+            //Close connection
+            httpclient.Dispose();
+
+
+
 
         }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
