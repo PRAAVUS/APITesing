@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceAutomation", "WebServiceAutomation\WebServiceAutomation.csproj", "{5CEEF408-3F38-4095-872E-64F5D24DC004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestProject", "MSTestProject\MSTestProject.csproj", "{1CD45AD9-C552-486C-9776-4AFB6E5805C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CEEF408-3F38-4095-872E-64F5D24DC004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEEF408-3F38-4095-872E-64F5D24DC004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEEF408-3F38-4095-872E-64F5D24DC004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEEF408-3F38-4095-872E-64F5D24DC004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD45AD9-C552-486C-9776-4AFB6E5805C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD45AD9-C552-486C-9776-4AFB6E5805C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD45AD9-C552-486C-9776-4AFB6E5805C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD45AD9-C552-486C-9776-4AFB6E5805C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27324854-FCA7-4B09-9B12-541D5BE2C77D}
+	EndGlobalSection
+EndGlobal
